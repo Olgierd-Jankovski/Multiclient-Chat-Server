@@ -13,4 +13,4 @@ Libraries imported in the C code are straightly from the Windows version, it use
 To run the C client: build with the same options and run: **./PokalbiuKlientas.exe 127.0.0.1 10000**
 
 # Changes
-Keep in mind, that there are extra changes made to fulfill the requirements for the academic purposes: private messaging. After the changes are made in a short amount of time, there are are code fragments which may prove hard to understand, since the C is not C# and does not support regex functionality.
+Keep in mind, that there are extra changes made to fulfill the requirements for the academic purposes: private messaging. After the changes are made in a short amount of time, there are code fragments which may prove hard to be readable, since the C is not C# and does not support regex functionality.
