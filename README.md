@@ -1,5 +1,5 @@
 # Multiclient-Chat-Server
-This is a C code for multi-client chat server that can accept multiple client connections through the telnet protocol (+ custom C/Java clients etc.). The server accpets connection and each user is asked to enter their username before they can start sending messages to other users. The code also handles private messaging between clients through the user of "@" symbol before the user names. Additionally, to fulfill the academic requirements: the code logs private messages to the file by specifying the source user, destination users and body message. 
+This is a C code for multi-client socket chat server that can accept multiple client connections through the telnet protocol (+ custom C/Java clients etc.). The server accepts connection and each user is asked to enter their username before they can start sending messages to other users. The code also handles private messaging between clients through the user of "@" symbol before the user names. Additionally, to fulfill the academic requirements: the code logs private messages to the file by specifying the source user, destination users and body message. 
 
 The handle_new_connection function is responsible for accepting a new client connection and adding it to the list of clients. The function sends a welcome message to the client and returns 0 on success.
 
